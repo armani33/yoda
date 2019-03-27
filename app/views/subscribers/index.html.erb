@@ -1,0 +1,18 @@
+<% if notice %>
+  <%= notice %>
+<% end %>
+<% if cookies[:saved_subcriber] %>
+  Thanks for register yourself to our Newletter.
+
+  The project is still in development but arrive soon in your neighborhood.
+  You'll be notice as soon as possible when a Yoda is ready to use.
+
+  <%= link_to 'Back to Home', root_path %>
+<% else %>
+  <h1>Sign up to our Newsletter, and get free unlock</h1>
+  <%= form_for @subscriber do |f| %>
+    <%= f.text_field :name, placeholder: 'Name' %>
+    <%= f.email_field :email, placeholder: 'Email' %>
+    <%= f.submit 'Subscribe' %>
+  <% end %>
+<% end %>
