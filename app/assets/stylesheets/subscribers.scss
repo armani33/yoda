@@ -49,3 +49,26 @@ input[type=submit]{
   font-weight: 500;
   color: $black;
 }
+p{
+  font-family: $nav-menu-font;
+}
+.cookies{
+  display: flex;
+  flex-direction: column;
+}
+.cookies a{
+  background-color: $black;
+  color: white;
+  width: 105px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 25px;
+  text-decoration: none;
+  font-family:$body-font;
+  font-weight: 500;
+}
+.notice{
+  font-family: $nav-menu-font;
+  color: orange;
+}
+
