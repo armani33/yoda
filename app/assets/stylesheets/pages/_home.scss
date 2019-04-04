@@ -96,19 +96,8 @@
         margin: 25px 0 70px 8px;
         color: $dark-grey
       }
-      a{
-        padding:10px 20px;
-        background-color: transparent;
-        border: 3px solid $green;
-        border-radius: 7px;
-        font-family: $nav-menu-font;
-        font-size: 20px;
-        color: $black;
-        text-decoration: none;
-        margin-left: 8px;
-        &:hover{
-          background-color: $green;
-        }
+      img{
+        width: 50%;
       }
     }
   }
@@ -118,20 +107,27 @@
     align-items: center;
     .iphone{
       margin-top: 100px;
+      margin-left: 20px;
       width: 400px;
     }
   }
 }
 .third-container{
   width: 100%;
-  height: 85vh;
+  height: 90vh;
   position: relative;
+  .yoda-bike-image{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+  }
   .text-container{
     height: 100%;
     display:flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 70px;
     .main-text-3{
       font-family: $body-font;
       h1{
@@ -144,7 +140,7 @@
       }
       p{
         font-size: 35px;
-        margin: 25px 0 70px 8px;
+        margin: 25px 0 90px 8px;
         color: $dark-grey;
       }
       a{
@@ -159,98 +155,117 @@
         margin-left: 8px;
         &:hover{
           background-color: $green;
+          color: white;
         }
       }
     }
   }
 }
-.yoda-bike-image{
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  z-index: -1;
+
+
+
+.fourth-container{
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  position: relative;
+  .text-container{
+    flex-basis: 61%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .main-text-4{
+      font-family: $body-font;
+      margin-left: 180px;
+      h1{
+        color: $black;
+        font-weight: 500;
+        font-size: 55px;
+        span{
+          color: $green;
+        }
+      }
+      .license-text{
+        p{
+        font-size: 35px;
+        margin: 25px 0 90px 8px;
+        color: $dark-grey;
+        margin: 0;
+        margin-bottom: 25px;
+        padding: 0;
+        }
+        .no-license{
+          display: flex;
+          align-items: center;
+          img{
+            margin-bottom: 25px;
+            margin-right: 20px;
+            width: 80px;
+          }
+        }
+        .yes-license{
+          display: flex;
+          align-items: center;
+          img{
+            margin-bottom: 25px;
+            margin-right: 20px;
+            width: 80px;
+          }
+        }
+      }
+    }
+  }
+  .iphone-container{
+    flex-basis: 39%;
+    img{
+      width: 370px;
+      position: absolute;
+      bottom: 0;
+    }
+  }
 }
-.form-container{
+.contact-container{
+  height: 45vh;
+  background-color: #2B2B2B;
   display: flex;
   justify-content: center;
+  align-items: center;
+  .contact-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3{
+      color: white;
+      font-weight: 400;
+      font-family: $body-font;
+      font-size: 35px;
+      margin-bottom: 30px;
+    }
+    p{
+      color: $green;
+      font-family: $body-font;
+      font-weight: 300;
+      font-size: 25px;
+      margin-bottom: 45px;
+    }
+    a{
+      padding:6px 45px;
+      background-color: transparent;
+      border: 3px solid $green;
+      border-radius: 7px;
+      font-family: $nav-menu-font;
+      font-size: 25px;
+      color: $green;
+      text-decoration: none;
+      &:hover{
+        background-color: $green;
+        color: white;
+      }
+    }
+  }
 }
-.form{
-  margin: 80px 0;
-}
-
-
-
-
-
-// #modal {
-//   background: white;
-
-//   position: fixed;
-//   top: 50%;
-//   left: 50%;
-
-//   height: 400px;
-//   margin-top: -200px;
-
-//   width: 600px;
-//   margin-left: -300px;
-
-//   /* Embiggen */
-//   transform: scale(1.5); /* prefix me */
-
-//   /* Hidden */
-//   opacity: 0;
-//   pointer-events: none;
-// }
-
-
-// .dialogIsOpen #page-wrap {
-
-//   /* Blur and de-color */
-//   -webkit-filter: blur(5px) grayscale(50%);
-
-//   /* Recede */
-//   -webkit-transform: scale(0.9);
-
-// }
-
-
-// .dialogIsOpen #modal {
-
-//   /* Regular size and visible */
-//   transform: scale(1); /* prefix me */
-//   opacity: 1;
-
-//   /* Clickable */
-//   pointer-events: auto;
-
-// }
-
-
-// #page-wrap, #modal {
-
-//   transition: all 0.4s ease; /* prefix me */
-
-// }
-// #page-wrap{
-//   height: 100vh;
-// }
-
-
-
-// body {
-//   /* Use at your own discretion */
-//   -webkit-transform: translateZ(0);
-// }
-
-
-
-
-
-
-
-
-
 
 
 
