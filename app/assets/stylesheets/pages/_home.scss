@@ -17,7 +17,7 @@
       height: 100px;
     }
     .main-text-1{
-      margin-top: 150px;
+      margin-top: 100px;
       z-index: 1;
       color: $black;
       font-family: $body-font;
@@ -43,23 +43,30 @@
           color: $green;
         }
       }
-      .action-button{
-        margin-top: 82px;
-        text-align: center;
-        a{
-          padding: 10px 20px;
-          background-color: transparent;
-          border: 3px solid $green;
-          border-radius: 7px;
+      .form{
+        margin-top: 50px;
+        text-align: left;
+        p{
           font-family: $nav-menu-font;
-          font-size: 20px;
-          color: $black;
-          text-decoration: none;
-          &:hover{
-          background-color: $green;
-          }
         }
       }
+      // .action-button{
+      //   margin-top: 82px;
+      //   text-align: center;
+      //   a{
+      //     padding: 10px 20px;
+      //     background-color: transparent;
+      //     border: 3px solid $green;
+      //     border-radius: 7px;
+      //     font-family: $nav-menu-font;
+      //     font-size: 20px;
+      //     color: $black;
+      //     text-decoration: none;
+      //     &:hover{
+      //     background-color: $green;
+      //     }
+      //   }
+      // }
     }
   }
   .images-container{
@@ -143,21 +150,32 @@
         margin: 25px 0 90px 8px;
         color: $dark-grey;
       }
-      a{
-        padding:10px 20px;
-        background-color: transparent;
-        border: 3px solid $green;
-        border-radius: 7px;
-        font-family: $nav-menu-font;
-        font-size: 20px;
-        color: $black;
-        text-decoration: none;
-        margin-left: 8px;
-        &:hover{
-          background-color: $green;
-          color: white;
+      .form{
+        margin-top: 50px;
+        text-align: left;
+        p{
+          font-family: $nav-menu-font;
+          font-size: 16px;
+          color: $black;
+          margin: 0;
+          padding: 0;
         }
       }
+      // a{
+      //   padding:10px 20px;
+      //   background-color: transparent;
+      //   border: 3px solid $green;
+      //   border-radius: 7px;
+      //   font-family: $nav-menu-font;
+      //   font-size: 20px;
+      //   color: $black;
+      //   text-decoration: none;
+      //   margin-left: 8px;
+      //   &:hover{
+      //     background-color: $green;
+      //     color: white;
+      //   }
+      // }
     }
   }
 }

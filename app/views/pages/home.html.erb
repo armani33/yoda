@@ -6,8 +6,8 @@
       <div class="main-text-1">
         <h1>Moving around <span>cities</span><br>has never been so perfect.</h1>
         <h2><span>Yoda</span>’s mission is to make cities more livable by reducing car<br>usage, traffic, and carbon emissions.</h2>
-        <div class="action-button">
-          <%= link_to 'Find a YODA', subscribers_path, class: 'subscribeBtn' %>
+        <div class="form">
+          <%= render "subscribers/form"%>
         </div>
       </div>
     </div>
@@ -35,7 +35,9 @@
       <div class="main-text-3">
         <h1>More than an<br><span>electric motorbike</span>.</h1>
         <p>Handy as a bike practical as a motorbike,<br>safer than a scooter.</p>
-        <%= link_to 'SUBSCRIBE', subscribers_path, class: 'subscribeBtn' %>
+        <div class="form">
+          <%= render "subscribers/form"%>
+        </div>
       </div>
     </div>
   </div>

@@ -6,18 +6,12 @@
         <%= notice %>
       <% end %>
     </div>
-
-    <% if cookies[:saved_subsscriber] %>
+    <% if cookies[:saved_subscriber] %>
       <div class="cookies">
-        <p>Thanks for register yourself to our Newletter.
-
-        The project is still in development but arrive soon in your neighborhood.
-        You'll be notice as soon as possible when a Yoda is ready to use.
-        </p>
-        <%= link_to 'Back to Home', root_path %>
+        <p>Thanks for register yourself to our Newletter.<br>Incredible things are comming!</p>
       </div>
     <% else %>
-      <h1>Get in touch and get free <span>unlock</span></h1>
+      <h1>We are coming soon! Join us and get free <span>unlock</span></h1>
       <%= form_for @subscriber, method: :post do |f| %>
         <%= f.text_field :name, placeholder: 'Name' %>
         <%= f.email_field :email, placeholder: 'Email' %>
