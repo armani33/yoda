@@ -87,18 +87,24 @@ p{
     width: 344px;
     padding: 10px;
     margin-bottom: 7px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 
   }
   .subscribing-form input[type=email]{
     width: 344px;
     padding: 10px;
     margin-bottom: 7px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
   .subscribing-form input[type=submit]{
     width: 100%;
     padding: 10px;
     color: white;
     font-size: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
 }
 @media (max-width: 350px){
@@ -109,18 +115,24 @@ p{
     width: 280px;
     padding: 10px;
     margin-bottom: 7px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 
   }
   .subscribing-form input[type=email]{
     width: 280px;
     padding: 10px;
     margin-bottom: 7px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
   .subscribing-form input[type=submit]{
     width: 100%;
     padding: 10px;
     color: white;
     font-size: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
 }
 
