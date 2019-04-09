@@ -50,11 +50,15 @@
 @media (max-width: 600px) {
   .navbar-container{
     padding: 10px;
+    margin: 0;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background-color: white;
+  }
+  .navbar-content{
+    margin: 0;
   }
   .brand img{
     width: 100px;
