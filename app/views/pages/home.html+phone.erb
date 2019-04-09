@@ -24,7 +24,30 @@
     </div>
     <%= image_tag('yodazer_3.svg') %>
   </div>
-
+  <div class="fourth-mobile-container">
+    <div class="main-mobile-text-4">
+      <h1>Accessible to <span>anyone</span></h1>
+      <div class="license-text">
+        <p>A maximum speed based on your experience.</p>
+        <div class="no-license license">
+          <%= image_tag('license_no.svg', class: "license-no") %>
+          <p>Up to 25 km/h.</p>
+        </div>
+        <div class="yes-license license">
+          <%= image_tag('license_ok.svg', class: "license-no") %>
+          <p>Up to 45 km/h.</p>
+        </div>
+      </div>
+      <%= image_tag('dashboard_iphone.png') %>
+    </div>
+  </div>
+  <div class="contact-mobile-container">
+    <div class="contact-mobile-content">
+      <h3>Contact Us</h3>
+      <p>Say Hello, Our Team is Excited to Hear From You!</p>
+      <%= link_to 'Contact', root_path, class: 'contact-button' %>
+    </div>
+  </div>
 
 
 </div>

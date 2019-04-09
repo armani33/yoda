@@ -68,7 +68,7 @@
 
 
 
-// **** Fenêtre 1 Mobile ****
+// **** Fenêtre 2 Mobile ****
 .second-mobile-container{
   width: 100%;
   background-color: white;
@@ -102,8 +102,8 @@
   color: $dark-grey;
   margin-bottom: 25px;
 }
-// **** Fenêtre 1 Mobile ****
-.second-mobile-container{
+// **** Fenêtre 3 Mobile ****
+.third-mobile-container{
   width: 100%;
   background-color: white;
   display: flex;
@@ -133,4 +133,126 @@
   color: $dark-grey;
   margin-bottom: 25px;
 }
+
+
+// **** Fenêtre 4 Mobile ****
+.fourth-mobile-container{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-mobile-text-4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+.main-mobile-text-4 h1{
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.main-mobile-text-4 .license-text p{
+  font-family: $body-font;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: $dark-grey;
+  margin-bottom: 25px;
+}
+.license{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-mobile-text-4 .license img{
+  width: 24%;
+  margin : 0;
+}
+.main-mobile-text-4 .no-license p{
+  margin-bottom : 10px;
+}
+.main-mobile-text-4 .yes-license p{
+  margin-bottom : 0;
+}
+.main-mobile-text-4  img{
+  width: 60%;
+  margin-top: 30px;
+}
+
+//****Contact page****
+
+.contact-mobile-container{
+  height: 200px;
+  background-color: #2B2B2B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .contact-mobile-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3{
+      color: white;
+      font-weight: 400;
+      font-family: $body-font;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    p{
+      color: $green;
+      font-family: $body-font;
+      font-weight: 300;
+      font-size: 14px;
+      margin-bottom: 25px;
+    }
+    a{
+      padding:2px 15px;
+      background-color: transparent;
+      border: 1px solid $green;
+      border-radius: 3px;
+      font-family: $nav-menu-font;
+      font-size: 15px;
+      color: $green;
+      text-decoration: none;
+      &:hover{
+        background-color: $green;
+        color: white;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
