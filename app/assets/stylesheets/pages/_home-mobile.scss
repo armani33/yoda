@@ -2,13 +2,12 @@
   margin: 0;
   padding: 0;
 }
-
 // **** Fenêtre 1 Mobile ****
 .first-mobile-container{
   width: 100%;
   background-color: white;
   img{
-    width: 100%;
+    width: 120%;
   }
 }
 .main-mobile-text-1{
@@ -102,7 +101,12 @@
   color: $dark-grey;
   margin-bottom: 25px;
 }
+
+
+
+
 // **** Fenêtre 3 Mobile ****
+
 .third-mobile-container{
   width: 100%;
   background-color: white;
@@ -110,6 +114,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  img{
+    width: 150%;
+    margin-left: 20px;
+  }
 }
 .main-mobile-text-3{
   display: flex;

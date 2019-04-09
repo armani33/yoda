@@ -1,12 +1,14 @@
 .navbar-yoda{
+
 }
 .navbar-container{
-  margin: 15px 100px 0 280px;
+
 }
 .navbar-content{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 15px 100px 0 280px;
 }
 .left-content{
   flex-basis: 27%;
@@ -21,23 +23,6 @@
 .brand img{
   width: 140px;
 }
-// .menu ul{
-//   list-style-type: none;
-//   margin: 0;
-//   padding: 0;
-//   overflow: hidden;
-//   a{
-//     text-decoration: none;
-//     color: black;
-//   }
-//   li {
-//   float: left;
-//   margin: 0 22px;
-//   font-family: $nav-menu-font;
-//   font-size: 17px;
-//   color: $black;
-//   }
-// }
 
 .action-button a{
   padding: 5px 10px;
@@ -64,7 +49,12 @@
 //**** Navbar mobile ****
 @media (max-width: 600px) {
   .navbar-container{
-    margin: 20px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
   }
   .brand img{
     width: 100px;
