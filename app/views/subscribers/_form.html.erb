@@ -4,16 +4,18 @@
     <%= notice %>
   <% end %>
 </div>
-<% if cookies[:saved_subscriber] %>
+<% if cookies[:saved_subcriber] %>
   <div class="cookies">
     <p>Thanks for register yourself to our Newletter.<br>Incredible things are comming!</p>
   </div>
 <% else %>
   <!-- <p>Be the first to use a <b>Yoda</b> in Brussels :-)</p> -->
-  <p>Join our community and get <b>early</b> access :-)</p>
-  <%= form_for @subscriber, method: :post do |f| %>
-    <%= f.text_field :name, placeholder: 'Name' %>
-    <%= f.email_field :email, placeholder: 'Email' %>
-    <%= f.submit 'Subscribe' %>
-  <% end %>
+  <div class="subscribing-form">
+    <p>Join our community and get <b>early</b> access :-)</p>
+    <%= form_for @subscriber, method: :post do |f| %>
+      <%= f.text_field :name, placeholder: 'Name' %>
+      <%= f.email_field :email, placeholder: 'Email' %>
+      <%= f.submit 'Subscribe' %>
+    <% end %>
+  </div>
 <% end %>

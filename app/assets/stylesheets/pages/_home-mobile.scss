@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+// **** Fenêtre 1 Mobile ****
+.first-mobile-container{
+  width: 100%;
+  background-color: white;
+  img{
+    width: 100%;
+  }
+}
+.main-mobile-text-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+.main-mobile-text-1 h1{
+  font-size: 27px;
+  text-align: center;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.main-mobile-text-1 p{
+  font-family: $body-font;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+.main-mobile-text-1 p span{
+  color: $green;
+}
+.main-mobile-text-1 .form{
+  margin: 60px 15px 70px 15px;
+}
+@media (min-width: 376px), (max-width: 414px){
+  .main-mobile-text-1 .form{
+    margin: 75px 25px 90px 25px;
+  }
+}
+@media (max-width: 375px){
+  .main-mobile-text-1 .form{
+    margin: 60px 25px 55px 25px;
+  }
+}
+@media (max-width: 350px){
+  .main-mobile-text-1 .form{
+    margin: 45px 0 40px 0;
+  }
+  .main-mobile-text-1 h1{
+    font-size: 23px;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .main-mobile-text-1 p{
+    font-size: 12px;
+  }
+  .rwd-break{
+    display: none;
+  }
+}
+
+
+
+// **** Fenêtre 1 Mobile ****
+.second-mobile-container{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img{
+    width: 50%;
+  }
+}
+.main-mobile-text-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+.main-mobile-text-2 h1{
+  font-size: 39px;
+  text-align: center;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.main-mobile-text-2 p{
+  font-family: $body-font;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: $dark-grey;
+  margin-bottom: 25px;
+}
+// **** Fenêtre 1 Mobile ****
+.second-mobile-container{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-mobile-text-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+.main-mobile-text-3 h1{
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.main-mobile-text-3 p{
+  font-family: $body-font;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: $dark-grey;
+  margin-bottom: 25px;
+}
+

@@ -77,4 +77,58 @@ p{
   font-weight: 400;
 }
 
+@media (max-width: 500px) {
+  .form p{
+    text-align: left;
+    font-size: 11px;
+    font-family: $nav-menu-font
+  }
+  .subscribing-form input[type=text]{
+    width: 344px;
+    padding: 10px;
+    margin-bottom: 7px;
+
+  }
+  .subscribing-form input[type=email]{
+    width: 344px;
+    padding: 10px;
+    margin-bottom: 7px;
+  }
+  .subscribing-form input[type=submit]{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+  }
+}
+@media (max-width: 350px){
+  .subscribing-form{
+    margin: 0 20px;
+  }
+  .subscribing-form input[type=text]{
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 7px;
+
+  }
+  .subscribing-form input[type=email]{
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 7px;
+  }
+  .subscribing-form input[type=submit]{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+
+
+
 
