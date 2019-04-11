@@ -257,6 +257,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
     h3{
       color: white;
       font-weight: 400;
@@ -271,22 +272,60 @@
       font-size: 25px;
       margin-bottom: 45px;
     }
-    a{
-      padding:6px 45px;
-      background-color: transparent;
-      border: 3px solid $green;
-      border-radius: 7px;
-      font-family: $nav-menu-font;
-      font-size: 25px;
-      color: $green;
-      text-decoration: none;
-      &:hover{
-        background-color: $green;
-        color: white;
+    .contact-bullet-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: start-flex;
+      height: 200px;
+      width: 100%;
+      .bullet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+        width: 140px;
+        }
+        .title{
+          color: white;
+          font-size: 15px;
+          font-weight: 700;
+          margin-top: 15px;
+          margin-bottom:0;
+        }
+        .info{
+          color: white;
+          font-size: 12px;
+          font-weight: 500;
+          margin-top: 5px;
+
+          padding:0;
+        }
+        a{
+          padding: 0;
+          &:hover{
+          padding: 0;
+          }
+        }
+      }
+      .social{
+        .title{
+          margin-top: 8px;
+        }
       }
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

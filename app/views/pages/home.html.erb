@@ -67,32 +67,34 @@
     <div class="contact-content">
       <h3>Contact Us</h3>
       <p>Say Hello, Our Team is Excited to Hear From You!</p>
-      <%= link_to 'Contact', root_path, class: 'contact-button' %>
+      <div class="contact-bullet-container">
+        <div class="bullet">
+          <%= image_tag('contact_email.png', class: "bullet-contact") %>
+          <p class="title">Press</p>
+          <p class="info">contact@yoda-city.com</p>
+        </div>
+        <div class="bullet">
+          <%= image_tag('contact_phone.png', class: "bullet-contact") %>
+          <p class="title">Call Us</p>
+          <p class="info">+32-472-222205</p>
+        </div>
+        <div class="bullet social">
+          <%= link_to "http://www.instagram.com" do %>
+            <%= image_tag('contact_insta.png', class: "bullet-contact") %>
+          <% end %>
+          <p class="title">Instagram</p>
+        </div>
+        <div class="bullet social">
+          <%= link_to "http://www.facebook.com" do %>
+            <%= image_tag('contact_facebook.png', class: "bullet-contact") %>
+          <% end %>
+          <p class="title">Facebook</p>
+        </div>
+      </div>
     </div>
   </div>
-  <% render "shared/footer" %>
+  <%= render "shared/footer" %>
 </div>
-
-
-<!-- <script>
-
-
-  const firstContainer = document.querySelectorAll(".first-container");
-  const seconndContainer = document.querySelectorAll(".second-container");
-  const thirdContainer = document.querySelectorAll(".third-container");
-
-  const subscribeButtons = document.querySelectorAll(".subscribeBtn");
-
-  subscribeButtons.forEach((subscribe) => {
-    subscribe.addEventListener("click", (event) => {
-      event.preventDefault();
-
-      document.querySelector("body").classList.toggle("dialogIsOpen");
-    });
-  });
-</script>
- -->
-
 
 
 

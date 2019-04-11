@@ -45,10 +45,36 @@
     <div class="contact-mobile-content">
       <h3>Contact Us</h3>
       <p>Say Hello, Our Team is Excited to Hear From You!</p>
-      <%= link_to 'Contact', root_path, class: 'contact-button' %>
+      <div class="contact-bullet-mobile-container">
+        <div class="bullet-mobile-group">
+          <div class="bullet-mobile">
+            <%= image_tag('contact_email.png') %>
+            <p class="title">Press</p>
+            <p class="info">contact@yoda-city.com</p>
+          </div>
+          <div class="bullet-mobile">
+            <%= image_tag('contact_phone.png') %>
+            <p class="title">Call Us</p>
+            <p class="info">+32-472-222205</p>
+          </div>
+        </div>
+        <div class="bullet-mobile-group">
+          <div class="bullet-mobile social-mobile">
+            <%= link_to "http://www.instagram.com" do %>
+              <%= image_tag('contact_insta.png') %>
+            <% end %>
+            <p class="title">Instagram</p>
+          </div>
+          <div class="bullet-mobile social-mobile">
+            <%= link_to "http://www.facebook.com" do %>
+              <%= image_tag('contact_facebook.png') %>
+            <% end %>
+            <p class="title">Facebook</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-
-
+  <%= render "shared/footer" %>
 </div>
 
