@@ -7,12 +7,12 @@
 <% if cookies[:saved_subscriber] %>
   <div class="cookies">
     <p class="website-paragraph">Let's make cities a better place together!</p>
-    <p class="mobile-paragraph"><span>Yoda</span>’s mission is to make cities more livable by<br>reducing car usage, traffic, and carbon emissions.</p>
+    <p class="mobile-paragraph"><span>Yoda</span>’s mission is to make cities more livable by reducing car usage, traffic, and carbon emissions.</p>
   </div>
 <% else %>
   <!-- <p>Be the first to use a <b>Yoda</b> in Brussels :-)</p> -->
   <div class="subscribing-form">
-    <p>Join our community and get <b>early</b> access :-)</p>
+    <p>Join our community and get <b>early</b> access</p>
     <%= form_for @subscriber, method: :post do |f| %>
       <%= f.text_field :name, placeholder: 'Name' %>
       <%= f.email_field :email, placeholder: 'Email' %>

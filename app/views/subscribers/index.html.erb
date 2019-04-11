@@ -6,8 +6,8 @@
         <%= notice %>
       <% end %>
     </div>
-    <div class="subscribing-form">
-      <p>We are coming soon! Join us and get free <span><b>unlock</b></span></p>
+    <div class="subscribing-form para-index">
+      <p>We are coming soon! Subscribe to get early access when <span><b>Yoda</b></span> comes to your city</p>
       <%= form_for @subscriber, method: :post do |f| %>
         <%= f.text_field :name, placeholder: 'Name' %>
         <%= f.email_field :email, placeholder: 'Email' %>

@@ -1,10 +1,11 @@
 <%= render "shared/navbar" %>
+<div class="navbar-back-container"></div>
 <div class="home-container">
   <div class="first-container">
     <div class="text-part">
       <div class="empty-left-part"></div>
       <div class="main-text-1">
-        <h1>Moving around <span>cities</span><br>has never been so perfect.</h1>
+        <h1>Moving around <span>cities</span><br>has never been so perfect</h1>
         <h2><span>Yoda</span>’s mission is to make cities more livable by reducing car<br>usage, traffic, and carbon emissions.</h2>
         <div class="form">
           <%= render "subscribers/form"%>
@@ -19,7 +20,7 @@
     <div class="text-content">
       <div class="main-text-2">
         <h1>Take a <span>ride</span></h1>
-        <p>Find a Yoda Nearby<br>Ride Anywhere<br>1€ to Start (25cent/minute)</p>
+        <p>Find a Yoda Nearby<br>Ride Anywhere<br>1€ to Start, 25cent/minute</p>
         <%= link_to subscribers_path do %>
           <%= image_tag('download_app.png', class: "download_app_btn") %>
         <% end %>
@@ -33,8 +34,8 @@
     <%= image_tag('yoda_bike.png', class: "yoda-bike-image") %>
     <div class="text-container">
       <div class="main-text-3">
-        <h1>More than an<br><span>electric motorbike</span>.</h1>
-        <p>Handy as a bike practical as a motorbike,<br>safer than a scooter.</p>
+        <h1>More than an<br><span>electric motorbike</span></h1>
+        <p>Handy as a bike, fast as a motorbike,<br>safer than a e-scooter.</p>
         <div class="form">
           <%= render "subscribers/form"%>
         </div>
@@ -46,14 +47,14 @@
       <div class="main-text-4">
         <h1>Accessible to <span>anyone</span></h1>
         <div class="license-text">
-          <p>A maximum speed based on you.</p>
+          <p>You set the maximum speed</p>
           <div class="no-license">
             <%= image_tag('license_no.svg', class: "license-no") %>
-            <p>Up to 25 km/h.</p>
+            <p>Up to 25 km/h</p>
           </div>
           <div class="yes-license">
             <%= image_tag('license_ok.svg', class: "license-no") %>
-            <p>Up to 45 km/h.</p>
+            <p>Up to 45 km/h</p>
           </div>
         </div>
       </div>
