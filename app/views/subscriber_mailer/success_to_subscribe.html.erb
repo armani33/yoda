@@ -1,5 +1,17 @@
-<h1>Thank you <%= @subscriber.name.capitalize %></h1>
-<br>
-<br>
-
-<!-- use root_url and not root_path (_url is the absolute path, and _path is the relative path) -->
+<div class="mail-container" style="display: flex; flex-direction: column; justify-content: center;">
+  <div class="mail-content" style="font-family: Arial, Helvetica, sans-serif; text-align: center; background-color: #00FFB7; width: 100%;">
+    <h1 style="font-size: 25px; margin: 50px 0 0 0;">Thank you <%= @subscriber.name.capitalize %> for your subscription</h1>
+    <h2>You're part of the Yoda city community!</h2>
+    <br>
+    <br>
+    <h3>We want to hear from you!</h3>
+    <br>
+    <p>Let us know what you think about our project!<br>Do not hesitate to <b>ask</b> us anything. It can be in english, in french, as well as in Flemish.</p>
+    <br>
+    <br>
+    <br>
+    <p>You will be the first to know when our Yodas are available in your city. And surely get reduction. </p>
+    <p>Take Care!</p>
+    <p><b>The Yoda Team</b></p>
+  </div>
+</div>
